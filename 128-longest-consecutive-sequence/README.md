@@ -1,31 +1,34 @@
-128. Longest Consecutive Sequence
-Solved
-Medium
-Topics
-premium lock icon
-Companies
-Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+<h2><a href="https://leetcode.com/problems/longest-consecutive-sequence">Longest Consecutive Sequence</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>
 
-You must write an algorithm that runs in O(n) time.
+<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time.</p>
 
- 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Example 1:
+<pre>
+<strong>Input:</strong> nums = [100,4,200,1,3,2]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest consecutive elements sequence is <code>[1, 2, 3, 4]</code>. Therefore its length is 4.
+</pre>
 
-Input: nums = [100,4,200,1,3,2]
-Output: 4
-Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
-Example 2:
+<p><strong class="example">Example 2:</strong></p>
 
-Input: nums = [0,3,7,2,5,8,4,6,0,1]
-Output: 9
-Example 3:
+<pre>
+<strong>Input:</strong> nums = [0,3,7,2,5,8,4,6,0,1]
+<strong>Output:</strong> 9
+</pre>
 
-Input: nums = [1,0,1,2]
-Output: 3
- 
+<p><strong class="example">Example 3:</strong></p>
 
-Constraints:
+<pre>
+<strong>Input:</strong> nums = [1,0,1,2]
+<strong>Output:</strong> 3
+</pre>
 
-0 <= nums.length <= 105
--109 <= nums[i] <= 109
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+</ul>
