@@ -15,8 +15,7 @@
  */
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
-        TreeNode ans1 = sortedArrayToBST(nums, 0, nums.length -1);
-        return ans1;
+        return sortedArrayToBST(nums, 0, nums.length -1);
     }
 
     public TreeNode sortedArrayToBST(int[] nums, int start, int end) {
