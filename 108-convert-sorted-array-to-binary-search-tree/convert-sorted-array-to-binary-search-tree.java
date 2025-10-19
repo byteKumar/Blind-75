@@ -24,13 +24,11 @@ class Solution {
             return null;
         }
         int n = start + (end - start) / 2;
-        int s = start;
-        int e = end;
 
         TreeNode ans = new TreeNode(nums[n]);
 
-        ans.left = sortedArrayToBST(nums, s, n-1);
-        ans.right = sortedArrayToBST(nums, n+1, e);
+        ans.left = sortedArrayToBST(nums, start, n-1);
+        ans.right = sortedArrayToBST(nums, n+1, end);
 
         return ans;
     }
